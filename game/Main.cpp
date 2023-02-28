@@ -17,31 +17,31 @@ int main()
     sf::RectangleShape rects[3];
     sf::RectangleShape hp[3];
 
-    for (int i = 0; i < 3; ++i)
+    for (int i = 0; i < 3; ++i) //vytvoření 3 objektů pro klikani
     {
         rects[i] = sf::RectangleShape(sf::Vector2f(75.f, 150.f));
         rects[i].setFillColor(sf::Color::Transparent);
         rects[i].setPosition(95.f + 280.f * i, 225.f);
     }
-    for (int i = 0; i < 3; ++i)
+    for (int i = 0; i < 3; ++i) //vytvoření 3 objektů pro životy
     {
         hp[i] = sf::RectangleShape(sf::Vector2f(50.f, 50.f));
         hp[i].setFillColor(sf::Color::Red);
         hp[i].setPosition(10.f + 60.f * i, 10.f);
     }
     std::chrono::steady_clock::time_point lastClickTime[3] = { std::chrono::steady_clock::now(),std::chrono::steady_clock::now(),std::chrono::steady_clock::now() };
-    sf::Texture bg;
-    bg.loadFromFile("res/pics/doors_bg.jpg");
+    sf::Texture bg; //vytvoření a načítaní pozadí
+    bg.loadFromFile("res/pics/doors_bg.jpg"); 
     if (!bg.loadFromFile("res/pics/doors_bg.jpg")) { std::cout << "fail to load bg"; }
     sf::Sprite Sbg;
     Sbg.setTexture(bg);
     Sbg.setPosition(0, 100);
 
-    sf::Texture txtrtgt;
+    sf::Texture txtrtgt;   //vytvoření a načítaní cílů 
     txtrtgt.loadFromFile("res/pics/target.png");
     if (!txtrtgt.loadFromFile("res/pics/target.png")) { std::cout << "fail to load target"; }
 
-    sf::SoundBuffer bfr1;
+    sf::SoundBuffer bfr1; // vytvářeni sound bufferů pro zvuky
     if (!bfr1.loadFromFile("res/audio/ko.wav")) { std::cout << "fail to load sound"; }
     sf::Sound ko;
     ko.setBuffer(bfr1);
@@ -77,17 +77,17 @@ int main()
             {
                 window.close();
             }
-            if (event.type == sf::Event::MouseButtonPressed)
+            if (event.type == sf::Event::MouseButtonPressed)    //if podmínka pro kliknutí myší
             {
                 
-                if (event.mouseButton.button == sf::Mouse::Left)
+                if (event.mouseButton.button == sf::Mouse::Left)    //if podmínka pro kliknutí levým tlačítkem myši
                 {
                     gs.play();
-                    sf::Vector2f mousePos = window.mapPixelToCoords(sf::Vector2i(event.mouseButton.x, event.mouseButton.y));
+                    sf::Vector2f mousePos = window.mapPixelToCoords(sf::Vector2i(event.mouseButton.x, event.mouseButton.y));    //získání pozice kurzoru
 
                     for (int i = 0; i < 3; i++)
                     {
-                        if (rects[i].getFillColor() == sf::Color::Red)
+                        if (rects[i].getFillColor() == sf::Color::Red)  //kliknutí na červenou (nepřítel) a následné zmizení nepřítele a přičtení bodu
                         {
                             if (rects[i].getGlobalBounds().contains(mousePos))
                             {
@@ -98,7 +98,7 @@ int main()
                            
                             }
                         }
-                        if (rects[i].getFillColor() == sf::Color::Green)
+                        if (rects[i].getFillColor() == sf::Color::Green)    //kliknutí na zelenou (rukojmí) a následné zmizení rukojmí a odečtení životu
                         {
                             if (rects[i].getGlobalBounds().contains(mousePos))
                             {
@@ -114,39 +114,40 @@ int main()
                 }
             }
         }
+        //čas na obnovení cílů
         auto now = std::chrono::steady_clock::now();
         std::srand(std::time(nullptr));
-        if (clock.getElapsedTime().asSeconds() >= 2)
+        if (clock.getElapsedTime().asSeconds() >= 2)    //časová prodleva aby se obrazce nezobrazovaly hned při spuštění
         {
             for (int i = 0; i < 3; i++)
             {
-                if (rects[i].getFillColor() == sf::Color::Transparent  && now - lastClickTime[i] > std::chrono::seconds(std::rand() % 9 + 1))
+                if (rects[i].getFillColor() == sf::Color::Transparent  && now - lastClickTime[i] > std::chrono::seconds(std::rand() % 9 + 1))   //znovuzobrazení obrazců po uplynutí několika sekund
                 {
-                    rg=std::rand() % 9 + 1;
+                    rg=std::rand() % 9 + 1; //rozhodování zda zobrazit nepřítele nebo rukojmí
                     if (rg == 9)
                     {
-                        rects[i].setFillColor(sf::Color::Green);
+                        rects[i].setFillColor(sf::Color::Green);    //rukojmí
                         rects[i].setTexture(&txtrtgt);
                         rects[i].setTextureRect(sf::IntRect(0, 0, 700, 1000));
                         timer[i].restart();
                     }
                     else if(6<rg && rg<9)
                     {
-                        rects[i].setFillColor(sf::Color::Red);
+                        rects[i].setFillColor(sf::Color::Red);      //nepřítel 1
                         rects[i].setTexture(&txtrtgt);
                         rects[i].setTextureRect(sf::IntRect(700, 0, 700, 1000));
                         timer[i].restart();
                     }
                     else if (3 < rg && rg < 7)
                     {
-                        rects[i].setFillColor(sf::Color::Red);
+                        rects[i].setFillColor(sf::Color::Red);      //nepřítel 2
                         rects[i].setTexture(&txtrtgt);
                         rects[i].setTextureRect(sf::IntRect(1400, 0, 700, 1000));
                         timer[i].restart();
                     }
                     else
                     {
-                        rects[i].setFillColor(sf::Color::Red);
+                        rects[i].setFillColor(sf::Color::Red);      //nepřítel 3
                         rects[i].setTexture(&txtrtgt);
                         rects[i].setTextureRect(sf::IntRect(2100, 0, 700, 1000));
                         timer[i].restart();
@@ -156,7 +157,7 @@ int main()
             }
             for (int i = 0; i < 3; i++)
             {
-                if (rects[i].getFillColor() == sf::Color::Red && timer[i].getElapsedTime().asSeconds() > 2)
+                if (rects[i].getFillColor() == sf::Color::Red && timer[i].getElapsedTime().asSeconds() > 2)     //akce po pozdním kliknutí na nepřítele
                 {
                     timer[i].restart();
                     h--;
@@ -165,26 +166,27 @@ int main()
             }
             for (int i = 0; i < 3; i++)
             {
-                if (rects[i].getFillColor() == sf::Color::Green && timer[i].getElapsedTime().asSeconds() > 2)
+                if (rects[i].getFillColor() == sf::Color::Green && timer[i].getElapsedTime().asSeconds() > 2)   //akce pro zmizení rukojmí pokud se na něj neklikne
                 {
                     timer[i].restart();
                     rects[i].setFillColor(sf::Color::Transparent);
                 }
             }
         }
-        window.clear();
-        window.draw(Sbg);
+        window.clear();     //vymazání okna
+        window.draw(Sbg);   //vykreslení pozadí
         if (h > 0)
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++) //vykreslení cílů
             {
                 window.draw(rects[i]);
             }
         }    
-        for (int i = 0; i < h; i++)
+        for (int i = 0; i < h; i++)     //vykreslení životů
         {
             window.draw(hp[i]);
         }
+        //↓↓funkce pro zobrazení skore
         sf::Text text;
         sf::Font font;
         font.loadFromFile("res/fonts/font.ttf");
@@ -206,7 +208,8 @@ int main()
         text.setPosition(sf::Vector2f(550.f, 550.f));
         text.setStyle(sf::Text::Bold);
         window.draw(text);
-
+        //↑↑funkce pro zobrazení skore
+        //↓↓funkce pro zobrazení game over textu
         sf::Text g_o;
         g_o.setString("Game over");
         g_o.setFillColor(sf::Color::White);
@@ -226,7 +229,7 @@ int main()
             window.draw(g_o);
             
         }
-        
+        //↑↑funkce pro zobrazení game over textu
         window.display();
     }
 
