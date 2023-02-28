@@ -1,0 +1,140 @@
+﻿game.exe (Win32): Načteno C:\Users\davca\source\repos\game\x64\Release\game.exe. Symboly byly načteny.
+game.exe (Win32): Načteno C:\Windows\System32\ntdll.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\kernel32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\KernelBase.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\user32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\win32u.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\gdi32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\gdi32full.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\msvcp_win.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\ucrtbase.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\advapi32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\msvcrt.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\sechost.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\rpcrt4.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\msvcp140.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\vcruntime140_1.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\vcruntime140.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\winmm.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\opengl32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\combase.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\glu32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\imm32.dll. 
+Vlákno 0x7088 skončilo s kódem 0 (0x0).
+game.exe (Win32): Načteno C:\Windows\System32\uxtheme.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\msctf.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\oleaut32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\kernel.appcore.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\windows.storage.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\wldp.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\SHCore.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\shlwapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvdlistx.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\version.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\version.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvdlistx.dll
+game.exe (Win32): Načteno C:\Windows\System32\bcryptprimitives.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\clbcatq.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\AppXDeploymentClient.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\AppXDeploymentClient.dll
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvoglv64.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\shell32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\setupapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\cfgmgr32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\bcrypt.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\ole32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\wtsapi32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\version.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\msasn1.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\cryptnet.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\crypt32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\drvstore.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\devobj.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\cryptbase.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\wintrust.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\ntmarta.dll. 
+Vlákno 0x8cf0 skončilo s kódem 0 (0x0).
+Vlákno 0x73e0 skončilo s kódem 0 (0x0).
+Vlákno 0x4344 skončilo s kódem 0 (0x0).
+game.exe (Win32): Načteno C:\Windows\System32\DXCore.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\nvspcap64.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\profapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\dwmapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\psapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\dbghelp.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\psapi.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\dbghelp.dll
+game.exe (Win32): Načteno C:\Windows\System32\psapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\dbghelp.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\psapi.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\dbghelp.dll
+game.exe (Win32): Načteno C:\Windows\System32\psapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\dbghelp.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\psapi.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\dbghelp.dll
+game.exe (Win32): Načteno C:\Windows\System32\psapi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\dbghelp.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\psapi.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\dbghelp.dll
+game.exe (Win32): Načteno C:\Windows\System32\powrprof.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\umpdc.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\winsta.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\dinput8.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\InputHost.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\CoreMessaging.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\CoreUIComponents.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\WinTypes.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\propsys.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\ws2_32.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\hid.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\TextInputFramework.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\dxgi.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\d3d11.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\ResourcePolicyClient.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\ResourcePolicyClient.dll
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvdlistx.dll. 
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvdlistx.dll
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvldumdx.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\imagehlp.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\cryptsp.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\rsaenh.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvwgf2umx.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\NvCamera\NvCameraAllowlisting64.dll. 
+Vlákno 0x5428 skončilo s kódem 0 (0x0).
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\NvCamera\NvCameraAllowlisting64.dll
+game.exe (Win32): Načteno C:\Windows\System32\nvapi64.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\u0382793.inf_amd64_1c9c9d36a5813460\B384051\aticfx64.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\u0382793.inf_amd64_1c9c9d36a5813460\B384051\atiuxp64.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\DriverStore\FileRepository\u0382793.inf_amd64_1c9c9d36a5813460\B384051\atidxx64.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\apphelp.dll. 
+game.exe (Win32): Načteno C:\Windows\System32\amdihk64.dll. Modul byl vytvořený bez symbolů.
+game.exe (Win32): Načteno C:\Windows\System32\dcomp.dll. 
+Vlákno 0x4ebc skončilo s kódem 0 (0x0).
+Vlákno 0x5b4c skončilo s kódem 0 (0x0).
+Vlákno 0x7fbc skončilo s kódem 0 (0x0).
+Vlákno 0x6bb8 skončilo s kódem 0 (0x0).
+Vlákno 0xa080 skončilo s kódem 0 (0x0).
+Vlákno 0x9e00 skončilo s kódem 0 (0x0).
+Vlákno 0x938c skončilo s kódem 0 (0x0).
+Vlákno 0x577c skončilo s kódem 0 (0x0).
+Vlákno 0x41d8 skončilo s kódem 0 (0x0).
+Vlákno 0x72c8 skončilo s kódem 0 (0x0).
+Vlákno 0x4734 skončilo s kódem 0 (0x0).
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvwgf2umx.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3dde57372050080\nvldumdx.dll
+Vlákno 0xa940 skončilo s kódem 0 (0x0).
+game.exe (Win32): Uvolněno C:\Windows\System32\amdihk64.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\u0382793.inf_amd64_1c9c9d36a5813460\B384051\atidxx64.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\u0382793.inf_amd64_1c9c9d36a5813460\B384051\atiuxp64.dll
+game.exe (Win32): Uvolněno C:\Windows\System32\DriverStore\FileRepository\u0382793.inf_amd64_1c9c9d36a5813460\B384051\aticfx64.dll
+Vlákno 0xa7ac skončilo s kódem 0 (0x0).
+Vlákno 0x7f8 skončilo s kódem 0 (0x0).
+Vlákno 0x82a8 skončilo s kódem 0 (0x0).
+Vlákno 0x41a0 skončilo s kódem 0 (0x0).
+Vlákno 0x82d8 skončilo s kódem 0 (0x0).
+Vlákno 0x34b8 skončilo s kódem 0 (0x0).
+Vlákno 0x8ee8 skončilo s kódem 0 (0x0).
+Vlákno 0x86a4 skončilo s kódem 0 (0x0).
+Vlákno 0xa3ac skončilo s kódem 0 (0x0).
+Vlákno 0x7c4c skončilo s kódem 0 (0x0).
+Program '[36724] game.exe' skončil s kódem 0 (0x0).
